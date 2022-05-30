@@ -1,0 +1,277 @@
+:root {
+    --bs-blue: #1D809F;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ecb807;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #1D809F;
+    --bs-secondary: #ecb807;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ecb807;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 29, 128, 159;
+    --bs-secondary-rgb: 236, 184, 7;
+    --bs-success-rgb: 25, 135, 84;
+    --bs-info-rgb: 13, 202, 240;
+    --bs-warning-rgb: 236, 184, 7;
+    --bs-danger-rgb: 220, 53, 69;
+    --bs-light-rgb: 248, 249, 250;
+    --bs-dark-rgb: 33, 37, 41;
+    --bs-white-rgb: 255, 255, 255;
+    --bs-black-rgb: 0, 0, 0;
+    --bs-body-color-rgb: 33, 37, 41;
+    --bs-body-bg-rgb: 255, 255, 255;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --bs-body-font-family: Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #212529;
+    --bs-body-bg: #fff;
+
+    --fs-800: 3.5rem;
+    --fs-700: 1.5rem;
+    --fs-600: 1rem;
+    --fs-500: 1.75rem;
+    --fs-400: 0.9375rem;
+    --fs-300: 1rem;
+    --fs-200: 0.875rem;
+}
+
+.fs-800 { font-size: var(--fs-800); }
+.fs-700 { font-size: var(--fs-700); }
+.fs-600 { font-size: var(--fs-600); }
+.fs-500 { font-size: var(--fs-500); }
+.fs-400 { font-size: var(--fs-400); }
+.fs-300 { font-size: var(--fs-300); }
+.fs-200 { font-size: var(--fs-200); }
+
+
+.text-white{
+    color: var(--bs-white);
+}
+
+.navbar{
+    background-color: #B3411C;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+.nav-link{
+    color:rgb(255, 255, 255);
+}
+
+.nav-link:hover{
+    color:#134754;
+}
+
+.one{
+  
+    background-color: #F0E1DB;
+    display: flex;
+    justify-content: centre;
+    align-items: centre;
+}
+
+.two{
+    
+    background-color: #F0E1DB;
+    display: flex;
+    justify-content: centre;
+    align-items: centre;
+}
+
+.three{
+   
+    background-color: #F0E1DB;
+    display: flex;
+    justify-content: centre;
+    align-items: centre;
+}
+
+.four{
+ 
+    background-color: #F0E1DB;
+    display: flex;
+    justify-content: centre;
+    align-items: centre;
+}
+
+
+.footer{
+    background-color: #1D242B;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.no-1{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+
+.btn-f{
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    background-color: #343a40;
+    
+}
+
+.btn-s{
+    background-color: gray;
+}
+
+.buttons{
+    gap:1rem;
+}
+
+.phone{
+    padding-top: 1rem;
+    gap: 0.5rem;
+}
+
+.phone-no{
+    padding-top: 0.8rem;
+}
+
+.search{
+    color:white;
+    background-color: grey;
+    border:none;
+}
+
+.main{
+    padding: 15rem 0rem 0rem 4rem;
+}
+
+@font-face {
+    src: url(./Font/FontsFree-Net-NewYork.ttf);
+    font-family: NewYork;
+}
+
+.read{
+    font-family: NewYork;
+    transition: 2s;
+}
+
+.read:hover{
+    letter-spacing: 10px;
+}
+    
+.text-body{
+    position: absolute;
+    padding: 7rem;
+    font-family: NewYork;
+    letter-spacing: 0.25rem;
+    color:#134754;
+}
+
+.text-body-2{
+    position: absolute;
+    
+    font-family: NewYork;
+    padding: 13rem 0rem 0rem 5rem;
+    color:#134754;
+    font-size:x-small;
+    letter-spacing: 0.15rem;
+}
+
+.serv{
+    padding:0rem 9rem;
+}
+
+.serv-img{
+    display: flex;
+    gap: 5rem;
+    padding: 10rem 4rem;
+    flex: 0 0 auto;
+    flex-direction: row; 
+    position: relative;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+ 
+}
+
+.trans{
+    transition: 1s;
+}
+.trans:hover{
+    transform: scale(1.2);
+}
+
+.test{
+    padding:0rem 2rem;
+}
+
+.test-img{
+    display: flex;
+    gap: 5rem;
+    padding: 10rem 4rem;
+    flex: 0 0 auto;
+    flex-direction: row; 
+    position: relative;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+ 
+}
+
+.blog-img{
+    padding:3rem;
+}
+
+.contact{
+    height:100vh
+}
+
+.con-text{
+    padding: 10rem 0rem 0rem 3rem;
+  
+}
+.form{
+    padding-left: 3rem;
+}
+
+.background{
+    margin-top: -20rem;
+    margin-left:-7rem;
+    z-index: -1;
+}
+
+.con-info{
+    position: absolute;
+    padding: 0rem 0rem 0rem 63rem;
+}
+
+.con-txt-bg{
+    gap:1rem;
+}
+
+.icons{
+    gap:3rem;
+    
+}
